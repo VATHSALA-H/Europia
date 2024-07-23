@@ -1,0 +1,1307 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+header .nav-middle {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-weight: 300;
+}
+
+header .nav-middle .shop {
+    font-weight: 500;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    gap: 10px;
+    background: #F6F6F6;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    margin: 10px 20px;
+}
+
+li a:hover {
+    font-weight: 600;
+}
+
+header .nav-right {
+    display: flex;
+    gap: 15px;
+}
+
+.spotlight {
+    width: 100%;
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 90px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.spotlight .background {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 870px;
+}
+
+.spotlight .spot-cont {
+    padding: 200px 200px;
+}
+
+.spotlight .summer {
+    font-size: 78px;
+    font-weight: 800;
+}
+
+.spotlight .shopnow {
+    font-size: 24px;
+    font-weight: 700;
+    background: #FFFFFF;
+    color: black;
+    padding: 10px 40px;
+    border-radius: 8px;
+}
+
+.spotlight .left {
+    position: absolute;
+    z-index: 1;
+    left: 5%;
+}
+
+.spotlight .right {
+    position: absolute;
+    z-index: 1;
+    right: 5%;
+
+}
+
+.sec2 {
+    width: 100%;
+    padding: 50px 50px;
+}
+
+.sec2 .lb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.sec2 .lowprice {
+    width: 100%;
+    position: relative;
+}
+
+.sec2 .lowprice .lowbg1 {
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.sec2 .lowprice .lowprice-content {
+    position: absolute;
+    z-index: 1;
+    font-weight: 800;
+    color: #FFFFFF;
+    padding: 70px 20px;
+}
+
+.sec2 .lowprice-content .lp {
+    font-size: 18px;
+}
+
+.sec2 .lowprice-content .high {
+    font-size: 34px;
+    line-height: 80px;
+}
+
+.sec2 .lowprice-content .upto {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.sec2 .lowprice-content .ex {
+    font-size: 20px;
+}
+
+.sec3 {
+    width: 100%;
+    padding: 0px 20px 0px 50px;
+}
+
+.sec3 .arrival {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.sec3 .arr-colc {
+    display: flex;
+    gap: 6px;
+}
+
+.sec3 .arr-collection {
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.sec4 {
+    width: 100%;
+    display: flex;
+    padding: 50px 100px;
+}
+
+.sec4 .sec4-1 {
+    position: relative;
+}
+
+.sec4 .everyday .bg4 {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.sec4 .bg-0 {
+    border-radius: 5px 0px 0px 5px;
+}
+
+.sec .bg4-1 {
+    border-radius: 0px 0px 0px 0px;
+}
+
+.sec4 .eve-cont {
+    position: absolute;
+    bottom: 140px;
+    color: #FFFFFF;
+    left: 40px;
+}
+
+.sec4 .eve-cont .btn {
+    background-color: #fff;
+    /* Button background color */
+    color: #000;
+    /* Button text color */
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.sec4 .eve-cont .fbetter {
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.sec4 .eve-cont .para {
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.sec5 {
+    width: 100%;
+    padding: 0px 60px;
+}
+
+.sec5 .arrival {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: 600;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.sec5 .sec5-coll {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sec5 .sec5-coll .shits {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.sec5 .sec5-coll .rshirt .stss {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec6 {
+    width: 100%;
+    padding: 20px 60px;
+}
+
+.sec6 .arrival {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: 600;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.sec6 .sec6-coll {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sec6 .sec6-coll .shits {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.sec6 .sec6-coll .rshirt .stss {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec7 {
+    width: 100%;
+    padding: 50px;
+}
+
+.sec7 .deal {
+    border: 1.07px solid #323232;
+    padding: 50px 20px;
+    background: #3C4242;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.sec7 .deal .Tbd {
+    font-size: 34px;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+.sec7 span {
+    color: #FBD103;
+    font-weight: 500;
+}
+
+.sec7 .logo-cont {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    padding-top: 40px;
+}
+
+.sec7 .logo-cont .plogo {
+    padding-left: 10px;
+}
+
+.sec8 {
+    width: 100%;
+    padding: 20px 60px;
+}
+
+.sec8 .arrival {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: 600;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.sec8 .sec8-coll {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sec8 .sec8-coll .shits {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.sec8 .sec8-coll .rshirt .stss {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec8 .sec8-coll .price {
+    background-color: #F6F6F6;
+}
+
+.sec9 {
+    width: 100%;
+    padding: 20px 60px;
+}
+
+.sec9 .arrival {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: 600;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.sec9 .feedb1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec9 .feedd1 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    font-weight: 100;
+    gap: 30px;
+}
+
+.sec9 .feedd1 .floyd {
+    font-weight: 500;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.sec9 .feed1 {
+    border: 1.8px solid #BEBCBD;
+    border-radius: 10px;
+    padding: 30px;
+    flex: 1;
+    width: calc(33%-20px);
+}
+
+footer {
+    width: 100%;
+    padding: 60px 70px 30px 70px;
+    background: #3C4242;
+    color: white;
+}
+
+footer .help {
+    padding: 20px;
+}
+
+footer .details {
+    display: flex;
+    padding: 20px 20px;
+}
+
+footer .details .bold {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+footer .details .hp {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 42px;
+}
+
+footer .social {
+    display: flex;
+    padding: 20px 90px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .da {
+    font-size: 26px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+footer .android {
+    font-size: 10px;
+}
+
+footer .Google {
+    font-size: 16px;
+}
+
+footer .plys {
+    display: flex;
+    gap: 20px;
+}
+
+footer .plys .plstore {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer .cate {
+    display: flex;
+    padding: 20px 50px;
+    justify-content: space-between;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+footer .cpyrgt {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+
+footer .line {
+    border: 1px solid #727171;
+}
+
+.sec1 .tooglr {
+    display: none;
+}
+
+@media only screen and (min-width:1280px) and (max-width:1440px) {
+    .sec3 .arr-collection {
+        width: 95%;
+        justify-content: space-between;
+    }
+
+    .sec5 .sec5-coll {
+        gap: 20px;
+    }
+}
+
+@media only screen and (min-width:1080px) and (max-width:1277px) {
+    header {
+        padding: 20px 30px;
+    }
+
+    .sec3 .arr-colc .leftarrow {
+        display: none;
+    }
+
+    .sec3 .arr-collection {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-right: 30px;
+    }
+
+    .sec5 .sec5-coll {
+        gap: 20px;
+    }
+
+    .sec6 .rshirt {
+        padding-top: 10px;
+    }
+
+    footer .details {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (min-width:980px) and (max-width:1079px) {
+
+    header {
+        padding: 20px 0px;
+    }
+
+    header .nav-middle {
+        gap: 10px;
+    }
+
+    .search {
+        gap: 10px;
+    }
+
+    header .nav-right {
+        gap: 10px;
+    }
+
+    .sec3 .arr-collection {
+        justify-content: space-between;
+    }
+
+    .sec3 .arr-colc .dup {
+        display: none;
+    }
+
+    footer .details .hp {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    footer .details .bold {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width:360px) and (max-width:979px) {
+    .sec1 .center {
+        flex-direction: column;
+        background-color: #ffffff;
+        position: absolute;
+        overflow: hidden;
+        opacity: 0;
+        z-index: 0;
+        top: 90px;
+        padding-top: 50px;
+        padding-left: 30px;
+        width: 150px;
+        height: 300px;
+        right: 0px;
+        font-weight: 200;
+        font-weight: 400;
+    }
+
+    .center.active {
+        opacity: 1;
+    }
+
+    .sec1 .center.active a:hover {
+        color: red;
+    }
+
+    .sec1 .tooglr {
+        align-items: center;
+        display: block;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:979px) {
+    .spotlight .shopnow {
+        font-size: 20px;
+        font-weight: 500;
+        padding: 15px;
+    }
+
+    .spotlight .summer {
+        font-size: 60px;
+    }
+
+    .spotlight .left {
+        left: 3%;
+        width: 20px;
+    }
+
+    .spotlight .right {
+        right: 3%;
+        width: 20px;
+    }
+
+    .spotlight .background {
+        height: 800px;
+    }
+
+    .spotlight {
+        font-size: 25px;
+        line-height: 70px;
+    }
+
+    .sec2 {
+        padding-top: 100px;
+    }
+
+    .sec2 .lowprice-content .lp {
+        font-size: 12px;
+    }
+
+    .sec2 .lowprice-content .high {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .sec2 .lowprice-content .upto {
+        font-size: 12px;
+    }
+
+    .sec2 .lowprice-content .ex {
+        font-size: 14px;
+    }
+
+    .sec2 .lb .lowbg1 {
+        width: 96%;
+    }
+
+    .sec3 .arr-colc .leftarrow {
+        display: none;
+    }
+
+    .sec3 .arr-collection {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-around;
+    }
+
+    .sec4 .eve-cont {
+        bottom: 40px;
+    }
+
+    .sec4 .eve-cont .fbetter {
+        font-size: 20px;
+    }
+
+    .sec4 .eve-cont .para {
+        font-size: 10px;
+    }
+    .sec8 .sec8-coll {
+     justify-content: space-around;
+     gap:10px;
+    }
+        .sec9 .feedd1 {
+        flex-direction: column;
+    }
+
+    footer .details {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (min-width:640px) and (max-width:767px) {
+    header {
+        padding: 20px 15px;
+    }
+
+    header .nav-right {
+        gap: 10px;
+    }
+
+    .sec2 .lb {
+        flex-wrap: wrap;
+    }
+
+    .spotlight .spot-cont {
+        padding: 190px 100px;
+    }
+
+    .sec2 .lb .lowbg1 {
+        width: 96%;
+    }
+
+    .sec3 .arr-colc .leftarrow {
+        display: none;
+    }
+
+    .sec3 .arr-collection {
+        flex-wrap: wrap;
+    }
+
+    .sec4 .eve-cont {
+        bottom: 50px;
+    }
+
+    .sec4 .eve-cont .fbetter {
+        font-size: 12px;
+    }
+
+    .sec4 .eve-cont .para {
+        font-size: 8px;
+    }
+
+    .sec4 .eve-cont .btn {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .sec5 {
+        padding: 0px 20px 0px 30px;
+    }
+
+    .sec5 .sec5-coll {
+        justify-content: space-around;
+    }
+
+    .sec6 {
+        padding: 20px 20px 0px 30px;
+    }
+
+    .sec6 .sec6-coll {
+        justify-content: space-around;
+    }
+
+    .sec8 {
+        padding: 0px 20px 0px 30px;
+    }
+
+    .sec8 .sec8-coll {
+        justify-content: space-around
+    }
+
+    .sec9 .feedd1 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    footer {
+        padding: 30px 20px 30px 20px;
+    }
+
+    footer .details {
+        flex-wrap: wrap;
+    }
+
+    footer .social {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width:540px) and (max-width:639px) {
+    header {
+        padding: 20px 15px;
+    }
+
+    header .nav-right {
+        gap: 10px;
+    }
+
+    .sec2 .lb {
+        flex-wrap: wrap;
+    }
+
+    .spotlight .background {
+        height: 700px;
+    }
+
+    .spotlight .spot-cont {
+        padding: 190px 100px;
+    }
+
+    .spotlight .shopnow {
+        font-size: 20px;
+        font-weight: 500;
+        padding: 10px;
+    }
+
+    .spotlight .left {
+        font-weight: 600;
+        padding-bottom: 30px;
+        left: 2%;
+    }
+
+    .spotlight .right {
+        right: 2%;
+    }
+
+    .spotlight {
+        font-size: 20px;
+        line-height: 60px;
+    }
+
+    .spotlight .summer {
+        font-size: 40px;
+    }
+
+    .sec2 .lb .lowbg1 {
+        width: 96%;
+    }
+
+    .sec3 .arr-colc .leftarrow {
+        display: none;
+    }
+
+    .sec3 .arr-collection {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .sec4 {
+        flex-direction: column;
+    }
+
+    .sec4 .eve-cont {
+        bottom: 100px;
+    }
+
+    .sec4 .eve-cont .fbetter {
+        font-size: 17px;
+    }
+
+    .sec4 .eve-cont .para {
+        font-size: 12px;
+    }
+
+    .sec5 {
+        padding: 0px 20px 0px 30px;
+    }
+
+    .sec5 .sec5-coll {
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    .sec6 {
+        padding: 20px 20px 0px 30px;
+    }
+
+    .sec6 .sec6-coll {
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    .sec8 {
+        padding: 0px 20px 0px 30px;
+    }
+
+    .sec8 .sec8-coll {
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    .sec9 .feedd1 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    footer .details {
+        flex-wrap: wrap;
+    }
+
+    footer .social {
+        flex-wrap: wrap;
+    }
+
+    footer .cate {
+        font-size: 14px;
+    }
+
+    footer .cpyrgt {
+        font-size: 13px;
+    }
+
+    footer .da {
+        font-size: 20px;
+    }
+
+    footer .android {
+        font-size: 8px;
+    }
+
+    footer .Google {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width:539px) {
+    header {
+        flex-wrap: wrap;
+        padding: 20px 30px;
+    }
+
+    header .nav-right {
+        display: none;
+    }
+
+    .sec2 .lb {
+        flex-wrap: wrap;
+    }
+
+    .spotlight .background {
+        height: 500px;
+    }
+
+    .spotlight .spot-cont {
+        padding: 100px 90px;
+    }
+
+    .spotlight .shopnow {
+        font-size: 16px;
+        font-weight: 500;
+        padding: 10px;
+    }
+
+    .spotlight .left {
+        left: 2%;
+        width: 15px;
+    }
+
+    .spotlight .right {
+        right: 2%;
+        width: 15px;
+    }
+
+    .spotlight {
+        font-size: 20px;
+        line-height: 60px;
+    }
+
+    .spotlight .summer {
+        font-size: 40px;
+    }
+
+    .sec2 .lb .lowbg1 {
+        width: 96%;
+    }
+
+    .sec2 .lowprice-content .lp {
+        font-size: 15px;
+    }
+
+    .sec2 .lowprice-content .high {
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .sec2 .lowprice-content .upto {
+        font-size: 14px;
+    }
+
+    .sec2 .lowprice-content .ex {
+        font-size: 18px;
+    }
+
+    .sec3 .arr-colc .leftarrow {
+        display: none;
+    }
+
+    .sec3 .arr-collection {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .sec4 {
+        flex-direction: column;
+    }
+
+    .sec4 .eve-cont {
+        bottom: 70px;
+    }
+
+    .sec4 .eve-cont .fbetter {
+        font-size: 14px;
+    }
+
+    .sec4 .eve-cont .para {
+        font-size: 12px;
+    }
+
+    .sec4 .eve-cont .btn {
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .sec5 {
+        padding: 0px 20px 0px 30px;
+    }
+
+    .sec5 .sec5-coll {
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    .sec6 {
+        padding: 0px 20px 0px 30px;
+    }
+
+    .sec6 .sec6-coll {
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    .sec6 {
+        padding-top: 20px;
+    }
+
+    .sec7 .logo-cont {
+        justify-content: center;
+    }
+
+    .sec8 {
+        padding: 0px 20px 0px 30px;
+    }
+
+    .sec8 .sec8-coll {
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    .sec9 .feedd1 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    footer .details {
+        flex-wrap: wrap;
+    }
+
+    footer .details .hp {
+        font-size: 14px;
+        line-height: 32px;
+    }
+
+    footer .details .bold {
+        font-size: 22px;
+    }
+
+    footer .social {
+        flex-wrap: wrap;
+        padding: 20px 60px;
+    }
+
+    footer .cate {
+        font-size: 14px;
+        padding: 20px 40px;
+    }
+
+    footer .cpyrgt {
+        font-size: 10px;
+    }
+
+    footer .da {
+        font-size: 18px;
+    }
+
+    footer .android {
+        font-size: 8px;
+    }
+
+    footer .Google {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width:360px) and (max-width:479px) {
+    header {
+        flex-wrap: wrap;
+        padding: 20px 10px;
+    }
+
+    header .nav-right {
+        display: none;
+    }
+
+    .search {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .search-icon {
+        width: 10px;
+    }
+
+    .sec2 .lb {
+        flex-wrap: wrap;
+    }
+
+    .spotlight .background {
+        height: 400px;
+    }
+
+    .spotlight .spot-cont {
+        padding: 60px 40px;
+    }
+
+    .spotlight .shopnow {
+        font-size: 14px;
+        font-weight: 500;
+        padding: 8px;
+    }
+
+    .spotlight .left {
+        left: 3%;
+        width: 10px;
+    }
+
+    .spotlight .right {
+        right: 3%;
+        width: 10px;
+    }
+
+    .spotlight {
+        font-size: 15px;
+        line-height: 40px;
+    }
+
+    .spotlight .summer {
+        font-size: 28px;
+    }
+
+    .sec2 {
+        padding: 90px 50px 20px 50px;
+    }
+
+    .sec2 .lb .lowbg1 {
+        width: 99%;
+    }
+
+    .sec2 .lowprice-content .lp {
+        font-size: 12px;
+    }
+
+    .sec2 .lowprice .lowprice-content {
+        padding: 40px 10px;
+    }
+
+    .sec2 .lowprice-content .high {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .sec2 .lowprice-content .upto {
+        font-size: 12px;
+    }
+
+    .sec2 .lowprice-content .ex {
+        font-size: 12px;
+    }
+
+    .sec3 .arr-colc .leftarrow {
+        display: none;
+    }
+
+    .sec3 .arr-collection {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .sec4 {
+        flex-direction: column;
+        padding: 50px 80px;
+    }
+
+    .sec4 .bg-0 {
+        border-radius: 5px 5px 0px 0px;
+    }
+
+    .sec4 .eve-cont {
+        bottom: 20px;
+        left: 20px;
+    }
+
+    .sec4 .eve-cont .fbetter {
+        font-size: 12px;
+    }
+
+    .sec4 .eve-cont .para {
+        font-size: 10px;
+    }
+
+    .sec4 .eve-cont .btn {
+        padding: 3px;
+        font-size: 10px;
+    }
+
+    .sec5 {
+        padding: 0px 20px 0px 30px;
+    }
+
+    .sec5 .sec5-coll {
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    .sec6 {
+        padding: 20px 20px 0px 30px;
+    }
+
+    .sec6 .sec6-coll {
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    .sec7 .logo-cont {
+        justify-content: center;
+    }
+
+    .sec8 {
+        padding: 0px 20px 0px 30px;
+    }
+
+    .sec8 .sec8-coll {
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+    .sec9 .feedd1 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    footer .details {
+        flex-wrap: wrap;
+    }
+
+    footer .details .hp {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    footer .details .bold {
+        font-size: 22px;
+    }
+
+    footer .social {
+        flex-wrap: wrap;
+        padding: 20px 20px;
+    }
+
+    footer .cate {
+        font-size: 12px;
+        padding: 20px 30px;
+    }
+
+    footer .cpyrgt {
+        font-size: 7px;
+    }
+
+    footer .da {
+        font-size: 13px;
+    }
+
+    footer .android {
+        font-size: 8px;
+    }
+
+    footer .Google {
+        font-size: 12px;
+    }
+}

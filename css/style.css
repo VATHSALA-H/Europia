@@ -79,10 +79,10 @@ header .nav-right {
     position: absolute;
     z-index: -1;
     width: 100%;
+    height: 100%;
     display: block;
     top: 0;
     left: 0;
-    height: 870px;
 }
 
 .spotlight .spot-cont {
@@ -514,19 +514,34 @@ footer .line {
         justify-content: space-between;
     }
 
+    .spotlight .spot-cont {
+        padding: 110px 200px;
+    }
+
     .sec5 .sec5-coll {
         gap: 20px;
     }
 }
 
-@media only screen and (min-width:1080px) and (max-width:1277px) {
+@media only screen and (min-width:1080px) and (max-width:1279px) {
     header {
         padding: 20px 30px;
+    }
+
+    .spotlight .spot-cont {
+        padding: 30px 200px 100px 180px;
+
     }
 
     .sec3 .arr-colc .leftarrow {
         display: none;
     }
+
+.spotlight .summer {
+    font-size: 68px;
+    font-weight: 800;
+}
+
 
     .sec3 .arr-collection {
         flex-wrap: wrap;
@@ -557,12 +572,23 @@ footer .line {
         gap: 5px;
     }
 
+    .spotlight .spot-cont {
+        padding: 30px 200px 50px 150px;
+    }
+
+    .spotlight .summer {
+        font-size: 60px;
+    }
+    
+    
     .search {
         gap: 10px;
     }
+
     li {
         margin: 10px 10px;
     }
+
     header .nav-right {
         gap: 5px;
     }
@@ -621,13 +647,13 @@ footer .line {
 
 @media only screen and (min-width:768px) and (max-width:979px) {
     .spotlight .shopnow {
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 500;
-        padding: 15px;
+        padding: 10px;
     }
 
     .spotlight .summer {
-        font-size: 60px;
+        font-size: 50px;
     }
 
     .spotlight .left {
@@ -640,9 +666,10 @@ footer .line {
         width: 20px;
     }
 
-    .spotlight .background {
-        height: 800px;
+    .spotlight .spot-cont {
+        padding: 30px 200px 20px 150px;
     }
+
 
     .spotlight {
         font-size: 25px;
@@ -695,11 +722,13 @@ footer .line {
     .sec4 .eve-cont .para {
         font-size: 10px;
     }
+
     .sec8 .sec8-coll {
-     justify-content: space-around;
-     gap:10px;
+        justify-content: space-around;
+        gap: 10px;
     }
-        .sec9 .feedd1 {
+
+    .sec9 .feedd1 {
         flex-direction: column;
     }
 
@@ -717,12 +746,38 @@ footer .line {
         gap: 10px;
     }
 
+    .spotlight {
+        font-size: 25px;
+        line-height: 50px;
+    }
+
+    .spotlight .spot-cont {
+        padding: 20px 203px 65px 120px;
+    }
+
     .sec2 .lb {
         flex-wrap: wrap;
     }
 
-    .spotlight .spot-cont {
-        padding: 190px 100px;
+    .spotlight .shopnow {
+        font-size: 15px;
+        font-weight: 500;
+        padding: 10px;
+    }
+
+
+    .spotlight .summer {
+        font-size: 40px;
+    }
+
+    .spotlight .left {
+        left: 3%;
+        width: 20px;
+    }
+
+    .spotlight .right {
+        right: 3%;
+        width: 20px;
     }
 
     .sec2 .lb .lowbg1 {
@@ -801,6 +856,15 @@ footer .line {
         padding: 20px 15px;
     }
 
+    .spotlight {
+        font-size: 15px;
+        line-height: 40px;
+    }
+
+    .spotlight .spot-cont {
+        padding: 10px 100px 60px 100px;
+    }
+
     header .nav-right {
         gap: 10px;
     }
@@ -809,16 +873,8 @@ footer .line {
         flex-wrap: wrap;
     }
 
-    .spotlight .background {
-        height: 700px;
-    }
-
-    .spotlight .spot-cont {
-        padding: 190px 100px;
-    }
-
     .spotlight .shopnow {
-        font-size: 20px;
+        font-size: 14px;
         font-weight: 500;
         padding: 10px;
     }
@@ -827,19 +883,16 @@ footer .line {
         font-weight: 600;
         padding-bottom: 30px;
         left: 2%;
+        width: 10px;
     }
 
     .spotlight .right {
         right: 2%;
-    }
-
-    .spotlight {
-        font-size: 20px;
-        line-height: 60px;
+        width: 10px;
     }
 
     .spotlight .summer {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .sec2 .lb .lowbg1 {
@@ -947,37 +1000,33 @@ footer .line {
         flex-wrap: wrap;
     }
 
-    .spotlight .background {
-        height: 500px;
-    }
-
     .spotlight .spot-cont {
-        padding: 100px 90px;
+        padding: 10px 100px 60px 100px;
     }
 
     .spotlight .shopnow {
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 500;
         padding: 10px;
     }
 
     .spotlight .left {
         left: 2%;
-        width: 15px;
+        width: 10px;
     }
 
     .spotlight .right {
         right: 2%;
-        width: 15px;
+        width: 10px;
     }
 
     .spotlight {
-        font-size: 20px;
-        line-height: 60px;
+        font-size: 12px;
+        line-height: 40px;
     }
 
     .spotlight .summer {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .sec2 .lb .lowbg1 {
@@ -1135,14 +1184,9 @@ footer .line {
         flex-wrap: wrap;
     }
 
-    .spotlight .background {
-        height: 400px;
-    }
-
     .spotlight .spot-cont {
-        padding: 60px 40px;
+        padding: 10px 100px 50px 80px;
     }
-
     .spotlight .shopnow {
         font-size: 14px;
         font-weight: 500;
@@ -1160,7 +1204,7 @@ footer .line {
     }
 
     .spotlight {
-        font-size: 15px;
+        font-size: 12px;
         line-height: 40px;
     }
 
@@ -1169,7 +1213,7 @@ footer .line {
     }
 
     .sec2 {
-        padding: 90px 50px 20px 50px;
+        padding: 20px 50px 20px 50px;
     }
 
     .sec2 .lb .lowbg1 {
